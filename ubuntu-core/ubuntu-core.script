@@ -82,9 +82,9 @@ text_sprite = Sprite();
 logo.raw_image = Image("run/mnt/gadget/splash/vendor-logo.png");
 uc_logo.raw_image = NULL;
 if (logo.raw_image == NULL) {
-    logo.raw_image = Image("usr/share/plymouth/themes/ubuntu-core/ubuntu-core.png");
+    logo.raw_image = Image("usr/share/plymouth/themes/ubuntu-core/lyra.png");
 } else {
-    uc_logo.raw_image = Image("usr/share/plymouth/themes/ubuntu-core/ubuntu-core.png");
+    uc_logo.raw_image = Image("usr/share/plymouth/themes/ubuntu-core/lyra.png");
     uc_logo_w = Window.GetWidth()/5;
     uc_logo.image = uc_logo.raw_image.Scale(uc_logo_w,
                         uc_logo_w*uc_logo.raw_image.GetHeight()/uc_logo.raw_image.GetWidth());
